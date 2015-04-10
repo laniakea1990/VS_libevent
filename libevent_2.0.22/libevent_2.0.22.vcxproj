@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{089E6B39-4D12-44A4-915E-B393CF47F972}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>libevent_2022</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\arc4random.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\buffer.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\bufferevent.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\bufferevent_async.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\bufferevent_filter.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\bufferevent_openssl.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\bufferevent_pair.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\bufferevent_ratelim.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\bufferevent_sock.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\buffer_iocp.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\devpoll.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\epoll.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\epoll_sub.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evdns.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\event.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\event_iocp.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\event_tagging.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evmap.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evport.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evrpc.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evthread.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evthread_pthread.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evthread_win32.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evutil.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evutil_rand.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\http.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\kqueue.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\listener.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\log.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\poll.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\sample\dns-example.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\sample\event-test.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\sample\hello-world.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\sample\http-server.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\sample\le-proxy.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\sample\signal-test.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\sample\time-test.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\select.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\signal.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\strlcpy.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\bench.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\bench_cascade.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\bench_http.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\bench_httpclient.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress.gen.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_buffer.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_bufferevent.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_dns.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_et.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_http.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_iocp.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_listener.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_main.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_minheap.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_rpc.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_ssl.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_testutils.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_thread.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_util.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_zlib.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\test-changelist.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\test-eof.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\test-init.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\test-ratelim.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\test-time.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\test-weof.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\tinytest.c" />
+    <ClCompile Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\win32select.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\bufferevent-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\changelist-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\defer-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evbuffer-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evdns.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\event-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\event.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evhttp.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evmap-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evrpc-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evrpc.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evsignal-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evthread-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\evutil.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\ht-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\http-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\buffer.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\bufferevent.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\bufferevent_compat.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\bufferevent_ssl.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\bufferevent_struct.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\buffer_compat.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\dns.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\dns_compat.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\dns_struct.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\event.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\event_compat.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\event_struct.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\http.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\http_compat.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\http_struct.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\keyvalq_struct.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\listener.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\rpc.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\rpc_compat.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\rpc_struct.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\tag.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\tag_compat.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\thread.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\event2\util.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\iocp-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\ipv6-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\log-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\minheap-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\mm-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\ratelim-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\strlcpy-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress.gen.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress_testutils.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\tinytest.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\tinytest_local.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\tinytest_macros.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\util-internal.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\WIN32-Code\event2\event-config.h" />
+    <ClInclude Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\WIN32-Code\tree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\aclocal.m4" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\autogen.sh" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\ChangeLog" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\compile" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\config.guess" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\config.h.in" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\config.sub" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\configure" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\configure.ac" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\depcomp" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\Doxyfile" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\event_rpcgen.py" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\Makefile.am" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\include\Makefile.in" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\install-sh" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\libevent.pc.in" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\libevent_openssl.pc.in" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\libevent_pthreads.pc.in" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\LICENSE" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\ltmain.sh" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\make-event-config.sed" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\Makefile.am" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\Makefile.in" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\Makefile.nmake" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\missing" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\README" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\Makefile.am" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\Makefile.in" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\Makefile.nmake" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\regress.rpc" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\rpcgen_wrapper.sh" />
+    <None Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\test\test.sh" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\..\..\workspace\libevent\libevent-2.0.22-stable\whatsnew-2.0.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
