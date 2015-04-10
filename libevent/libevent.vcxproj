@@ -11,11 +11,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="libevent-0.1\event.c" />
-    <ClCompile Include="libevent-0.1\sample\event-test.c" />
+    <ClCompile Include="event.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="libevent-0.1\event.h" />
+    <ClInclude Include="event.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BB84AA3C-26E6-421B-B27D-7C775B08D20E}</ProjectGuid>

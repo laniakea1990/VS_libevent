@@ -13,21 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\sample">
-      <UniqueIdentifier>{c450e81c-32f3-4b6c-99e8-35aa5e8eaf0c}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="libevent-0.1\event.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="libevent-0.1\sample\event-test.c">
-      <Filter>源文件\sample</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="libevent-0.1\event.h">
+    <ClInclude Include="event.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="event.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
