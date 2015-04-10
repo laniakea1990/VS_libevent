@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="buffer.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="devpoll.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="epoll.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="epoll_sub.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="evbuffer.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="evdns.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="event.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="event_tagging.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="evport.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="evrpc.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="evutil.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="http.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="kqueue.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="log.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="poll.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="select.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="signal.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+    <ClCompile Include="strlcpy.c">
+      <Filter>SourceFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="evdns.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="event.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="evhttp.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="event-internal.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="evrpc.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="evrpc-internal.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="evsignal.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="evutil.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="http-internal.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="log.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="min_heap.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+    <ClInclude Include="strlcpy-internal.h">
+      <Filter>HeadFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="HeadFile">
+      <UniqueIdentifier>{59bd1d68-7e5c-4f03-976b-40ea687bb01a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFile">
+      <UniqueIdentifier>{cf9ba03f-d5cd-4f46-ba1b-5eaf7a0e6dd0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
