@@ -10,6 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libevent-0.1\event.c" />
+    <ClCompile Include="libevent-0.1\sample\event-test.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="libevent-0.1\event.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{BB84AA3C-26E6-421B-B27D-7C775B08D20E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -78,21 +85,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\workspace\libevent\libevent\event.h" />
-    <ClInclude Include="..\..\..\..\workspace\libevent\libevent\missing\sys\queue.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\workspace\libevent\libevent\event.c" />
-    <ClCompile Include="..\..\..\..\workspace\libevent\libevent\sample\event-test.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\..\..\..\workspace\libevent\libevent\configure" />
-    <None Include="..\..\..\..\workspace\libevent\libevent\configure.in" />
-    <None Include="..\..\..\..\workspace\libevent\libevent\event.3" />
-    <None Include="..\..\..\..\workspace\libevent\libevent\install-sh" />
-    <None Include="..\..\..\..\workspace\libevent\libevent\Makefile.in" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

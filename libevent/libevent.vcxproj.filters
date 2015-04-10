@@ -14,46 +14,20 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="源文件\sample">
-      <UniqueIdentifier>{1d831242-0275-41d1-bfa3-ab70dbe919f2}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\missing">
-      <UniqueIdentifier>{4e489e2b-4f29-47fc-b588-3ee2e929742b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\missing\sys">
-      <UniqueIdentifier>{36fbe7de-2dad-4110-a994-b67be5b069fd}</UniqueIdentifier>
+      <UniqueIdentifier>{c450e81c-32f3-4b6c-99e8-35aa5e8eaf0c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\workspace\libevent\libevent\event.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\workspace\libevent\libevent\missing\sys\queue.h">
-      <Filter>源文件\missing\sys</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\..\workspace\libevent\libevent\event.c">
+    <ClCompile Include="libevent-0.1\event.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\workspace\libevent\libevent\sample\event-test.c">
+    <ClCompile Include="libevent-0.1\sample\event-test.c">
       <Filter>源文件\sample</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\..\..\workspace\libevent\libevent\configure">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="..\..\..\..\workspace\libevent\libevent\configure.in">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="..\..\..\..\workspace\libevent\libevent\event.3">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="..\..\..\..\workspace\libevent\libevent\install-sh">
-      <Filter>资源文件</Filter>
-    </None>
-    <None Include="..\..\..\..\workspace\libevent\libevent\Makefile.in">
-      <Filter>资源文件</Filter>
-    </None>
+    <ClInclude Include="libevent-0.1\event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
