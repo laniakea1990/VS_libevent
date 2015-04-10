@@ -13,99 +13,170 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\test">
+      <UniqueIdentifier>{5a21cd2f-9023-43f4-b230-f23782ab00fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sample">
+      <UniqueIdentifier>{b4242bad-a717-411c-9c1a-b80dbaa5df31}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="buffer.c">
+    <ClInclude Include="libevent-1.4.13-stable\evdns.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\event.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\event-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\evhttp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\evrpc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\evrpc-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\evsignal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\evutil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\http-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\min_heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\strlcpy-internal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\test\regress.gen.h">
+      <Filter>源文件\test</Filter>
+    </ClInclude>
+    <ClInclude Include="libevent-1.4.13-stable\test\regress.h">
+      <Filter>源文件\test</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libevent-1.4.13-stable\buffer.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="devpoll.c">
+    <ClCompile Include="libevent-1.4.13-stable\devpoll.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="epoll.c">
+    <ClCompile Include="libevent-1.4.13-stable\epoll.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="epoll_sub.c">
+    <ClCompile Include="libevent-1.4.13-stable\epoll_sub.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="evbuffer.c">
+    <ClCompile Include="libevent-1.4.13-stable\evbuffer.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="evdns.c">
+    <ClCompile Include="libevent-1.4.13-stable\evdns.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="event.c">
+    <ClCompile Include="libevent-1.4.13-stable\event.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="event_tagging.c">
+    <ClCompile Include="libevent-1.4.13-stable\event_tagging.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="evport.c">
+    <ClCompile Include="libevent-1.4.13-stable\evport.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="evrpc.c">
+    <ClCompile Include="libevent-1.4.13-stable\evrpc.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="evutil.c">
+    <ClCompile Include="libevent-1.4.13-stable\evutil.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="http.c">
+    <ClCompile Include="libevent-1.4.13-stable\http.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="kqueue.c">
+    <ClCompile Include="libevent-1.4.13-stable\kqueue.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="log.c">
+    <ClCompile Include="libevent-1.4.13-stable\log.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="poll.c">
+    <ClCompile Include="libevent-1.4.13-stable\poll.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="select.c">
+    <ClCompile Include="libevent-1.4.13-stable\select.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="signal.c">
+    <ClCompile Include="libevent-1.4.13-stable\signal.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="strlcpy.c">
+    <ClCompile Include="libevent-1.4.13-stable\strlcpy.c">
       <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\bench.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\regress.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\regress.gen.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\regress_dns.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\regress_http.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\regress_rpc.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\test-eof.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\test-init.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\test-time.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\test\test-weof.c">
+      <Filter>源文件\test</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\sample\event-test.c">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\sample\signal-test.c">
+      <Filter>源文件\sample</Filter>
+    </ClCompile>
+    <ClCompile Include="libevent-1.4.13-stable\sample\time-test.c">
+      <Filter>源文件\sample</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="evdns.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="event.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="event-internal.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="evhttp.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="evrpc.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="evrpc-internal.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="evsignal.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="evutil.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="http-internal.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="log.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="min_heap.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="strlcpy-internal.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
+    <None Include="libevent-1.4.13-stable\test\Makefile.am">
+      <Filter>源文件\test</Filter>
+    </None>
+    <None Include="libevent-1.4.13-stable\test\Makefile.in">
+      <Filter>源文件\test</Filter>
+    </None>
+    <None Include="libevent-1.4.13-stable\test\regress.rpc">
+      <Filter>源文件\test</Filter>
+    </None>
+    <None Include="libevent-1.4.13-stable\test\test.sh">
+      <Filter>源文件\test</Filter>
+    </None>
+    <None Include="libevent-1.4.13-stable\sample\Makefile.am">
+      <Filter>源文件\sample</Filter>
+    </None>
+    <None Include="libevent-1.4.13-stable\sample\Makefile.in">
+      <Filter>源文件\sample</Filter>
+    </None>
   </ItemGroup>
 </Project>

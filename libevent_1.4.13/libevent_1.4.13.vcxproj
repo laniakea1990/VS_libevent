@@ -11,38 +11,61 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="buffer.c" />
-    <ClCompile Include="devpoll.c" />
-    <ClCompile Include="epoll.c" />
-    <ClCompile Include="epoll_sub.c" />
-    <ClCompile Include="evbuffer.c" />
-    <ClCompile Include="evdns.c" />
-    <ClCompile Include="event.c" />
-    <ClCompile Include="event_tagging.c" />
-    <ClCompile Include="evport.c" />
-    <ClCompile Include="evrpc.c" />
-    <ClCompile Include="evutil.c" />
-    <ClCompile Include="http.c" />
-    <ClCompile Include="kqueue.c" />
-    <ClCompile Include="log.c" />
-    <ClCompile Include="poll.c" />
-    <ClCompile Include="select.c" />
-    <ClCompile Include="signal.c" />
-    <ClCompile Include="strlcpy.c" />
+    <ClInclude Include="libevent-1.4.13-stable\evdns.h" />
+    <ClInclude Include="libevent-1.4.13-stable\event-internal.h" />
+    <ClInclude Include="libevent-1.4.13-stable\event.h" />
+    <ClInclude Include="libevent-1.4.13-stable\evhttp.h" />
+    <ClInclude Include="libevent-1.4.13-stable\evrpc-internal.h" />
+    <ClInclude Include="libevent-1.4.13-stable\evrpc.h" />
+    <ClInclude Include="libevent-1.4.13-stable\evsignal.h" />
+    <ClInclude Include="libevent-1.4.13-stable\evutil.h" />
+    <ClInclude Include="libevent-1.4.13-stable\http-internal.h" />
+    <ClInclude Include="libevent-1.4.13-stable\log.h" />
+    <ClInclude Include="libevent-1.4.13-stable\min_heap.h" />
+    <ClInclude Include="libevent-1.4.13-stable\strlcpy-internal.h" />
+    <ClInclude Include="libevent-1.4.13-stable\test\regress.gen.h" />
+    <ClInclude Include="libevent-1.4.13-stable\test\regress.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="evdns.h" />
-    <ClInclude Include="event-internal.h" />
-    <ClInclude Include="event.h" />
-    <ClInclude Include="evhttp.h" />
-    <ClInclude Include="evrpc-internal.h" />
-    <ClInclude Include="evrpc.h" />
-    <ClInclude Include="evsignal.h" />
-    <ClInclude Include="evutil.h" />
-    <ClInclude Include="http-internal.h" />
-    <ClInclude Include="log.h" />
-    <ClInclude Include="min_heap.h" />
-    <ClInclude Include="strlcpy-internal.h" />
+    <ClCompile Include="libevent-1.4.13-stable\buffer.c" />
+    <ClCompile Include="libevent-1.4.13-stable\devpoll.c" />
+    <ClCompile Include="libevent-1.4.13-stable\epoll.c" />
+    <ClCompile Include="libevent-1.4.13-stable\epoll_sub.c" />
+    <ClCompile Include="libevent-1.4.13-stable\evbuffer.c" />
+    <ClCompile Include="libevent-1.4.13-stable\evdns.c" />
+    <ClCompile Include="libevent-1.4.13-stable\event.c" />
+    <ClCompile Include="libevent-1.4.13-stable\event_tagging.c" />
+    <ClCompile Include="libevent-1.4.13-stable\evport.c" />
+    <ClCompile Include="libevent-1.4.13-stable\evrpc.c" />
+    <ClCompile Include="libevent-1.4.13-stable\evutil.c" />
+    <ClCompile Include="libevent-1.4.13-stable\http.c" />
+    <ClCompile Include="libevent-1.4.13-stable\kqueue.c" />
+    <ClCompile Include="libevent-1.4.13-stable\log.c" />
+    <ClCompile Include="libevent-1.4.13-stable\poll.c" />
+    <ClCompile Include="libevent-1.4.13-stable\sample\event-test.c" />
+    <ClCompile Include="libevent-1.4.13-stable\sample\signal-test.c" />
+    <ClCompile Include="libevent-1.4.13-stable\sample\time-test.c" />
+    <ClCompile Include="libevent-1.4.13-stable\select.c" />
+    <ClCompile Include="libevent-1.4.13-stable\signal.c" />
+    <ClCompile Include="libevent-1.4.13-stable\strlcpy.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\bench.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\regress.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\regress.gen.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\regress_dns.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\regress_http.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\regress_rpc.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\test-eof.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\test-init.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\test-time.c" />
+    <ClCompile Include="libevent-1.4.13-stable\test\test-weof.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="libevent-1.4.13-stable\sample\Makefile.am" />
+    <None Include="libevent-1.4.13-stable\sample\Makefile.in" />
+    <None Include="libevent-1.4.13-stable\test\Makefile.am" />
+    <None Include="libevent-1.4.13-stable\test\Makefile.in" />
+    <None Include="libevent-1.4.13-stable\test\regress.rpc" />
+    <None Include="libevent-1.4.13-stable\test\test.sh" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AADA445D-C149-4EE7-8239-D356BE4EE1E4}</ProjectGuid>
